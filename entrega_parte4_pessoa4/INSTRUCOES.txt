@@ -1,0 +1,38 @@
+TRABALHO DE PROGRAMAÇÃO EM C
+PARTE 4 — PESSOA 4
+Sistema de Cadastro de Produtos de uma Loja
+
+ARQUIVOS PARA ENTREGA
+- main.c: parte da Pessoa 4. Contém o menu principal, o switch/case, a validação da opção digitada e a exportação para CSV.
+- loja.h: estrutura Produto e declarações das funções usadas na integração.
+- cadastro.c: funções de criação do arquivo inicial e cadastro de produtos (Pessoa 1).
+- arquivos.c: funções de listagem, alteração e exclusão de produtos (Pessoa 2).
+
+COMO COMPILAR
+Na pasta em que estão os quatro arquivos, execute:
+
+gcc -std=c11 -Wall -Wextra -pedantic main.c cadastro.c arquivos.c -o sistema_loja
+
+No Windows, para gerar um executável .exe:
+gcc -std=c11 -Wall -Wextra -pedantic main.c cadastro.c arquivos.c -o sistema_loja.exe
+
+COMO EXECUTAR
+Windows: sistema_loja.exe
+Linux/macOS: ./sistema_loja
+
+OPÇÕES DO MENU
+1 - Cadastrar produto
+2 - Listar produtos
+3 - Alterar produto
+4 - Excluir produto
+5 - Exportar produtos para CSV
+0 - Sair
+
+EXPORTAÇÃO CSV
+Ao escolher a opção 5, o programa cria o arquivo produtos.csv na mesma pasta do programa.
+O arquivo pode ser aberto em programas de planilha, como Excel ou LibreOffice Calc.
+
+OBSERVAÇÃO IMPORTANTE SOBRE A INTEGRAÇÃO
+Os arquivos recebidos nesta etapa incluem os códigos da Pessoa 1 e da Pessoa 2, mas não incluem o arquivo da Pessoa 3 (pesquisa e ordenação). Por isso, esta entrega integra somente as funções que foram efetivamente enviadas. Para a versão final de todo o grupo, ainda será necessário receber e integrar o código da Pessoa 3, acrescentando as opções correspondentes ao menu e seus protótipos no loja.h.
+
+Também foi retirada de cadastro.c a função listarProdutos provisória, pois a listagem definitiva já está implementada em arquivos.c. Assim, evita-se a duplicidade de função na compilação.
