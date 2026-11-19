@@ -1,4 +1,10 @@
 # 🛒 Sistema de Cadastro de Produtos
+## Integrantes
+
+- Maria Eduarda Santos Guedes - 48216810
+- Millena Dias Santana - 47555041
+- Raquel Guimarães Pereira - 47813369
+- Yasmin Helena Marinho Pinda - 47740981
 
 [link no gdb](https://onlinegdb.com/_Lt_OOwur)
 
