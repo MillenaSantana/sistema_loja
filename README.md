@@ -1,6 +1,6 @@
 # 🛒 Sistema de Cadastro de Produtos
 
-[link no gdb](https://onlinegdb.com/-DLIejgq0_)
+[link no gdb](https://onlinegdb.com/_Lt_OOwur)
 
 Projeto desenvolvido em linguagem **C** como atividade acadêmica da disciplina de Programação.
 
